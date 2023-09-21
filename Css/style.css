@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estilizando o Body*/
+body{
+
+    font-family: sans-serif;
+   background-color: #fdfaf1 !important;
+}
+/*--------------------------------Estilizando o nav-bar------------------------*/
+
+.d-flex input{
+    margin-right: 4px;
+    border: none !important;
+    
+}
+
+.d-flex button{
+    color: #f1f3f4;
+    border: 1px solid #bb9310;
+    padding-bottom: 1px;
+}
+.d-flex button:hover{
+    background-color:white;
+    color:#bb9310;
+   
+
+}
+.navbar-brand h2:hover{
+  padding: 2%;
+   transition-duration: 2%;
+
+}
+.form-control {
+    margin-left: 12%;
+    background-color: #ecc84f;
+    border: none;
+ 
+}
+
+
+/*----------------Estilizando o conteudo da pagina-------------------*/
+
+
+   .navbar-nav ul 
+   {
+display: inline-flex;
+   } 
+   
+/*----------------------------------------Estilizando o card1 ---------------------------*/
+
+ /*----------------------------------------Estilizando o card ---------------------------*/
+    .card-img-top{
+     
+    }
+    .card{
+      
+      margin: 0 12px; 
+       
+   }
+   .card:hover{
+    margin: 2px;
+   transition-duration: 0.8s;
+   transform: translate(0,-3%);
+   }
+   
+.card-group {
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 15%;
+   
+   
+}
+.card-title{
+    color: #bb9310;
+    font-size: 20px;
+}
+.price{
+    color: #24ad24;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+/* ------------Estilizando o rodape ------------------------- */
+.footer{
+    background-color:#000;
+    
+    
+}
+
+ul li {
+   
+    list-style: none;
+    
+
+    
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+li a:hover{
+   color: #bb9310 !important;
+   transition-duration: 0.8s !important;
+   
+ 
+}
+footer div{
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 4%;
+    
+}
+
+.sup{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.sb{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.contc{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* ------------Estilizando o redes sociais ------------------------- */
+
+.col-md-6{
+    
+    
+        padding: 2%;
+        border-top: 1PX solid #bb9310;
+        margin-inline-end: 4%;
+        width: 90%;
+     
+    
+    } 
+.fa-facebook{
+    margin-right: 10px;
+   width:6%;
+   margin-left: 150PX;
+   
+}
+.fa-twitter{
+    margin-right: 20px;
+   width:6%;
+}
+.fa-instagram{
+    margin-left: 10px;
+    width:6%; 
+}
+.fa-youtube{
+    margin-right: 10px;
+    width:6%; 
+}
+.bi-messenger{
+    margin-left: 20px;
+    width:6%; 
+}
+/* ------------Estilizando o  sociais ------------------------- */
+
+.bi-chevron-down :hover{
+    transform: translate(0,-20);
+    
+}
