@@ -1,9 +1,11 @@
-function validar(botao) {
+function buttonclicked() {
 
-    if (condition) {
+    if (!document.querySelector("searchInput").value) {
+       document.querySelector("errorMensage").innerHTML="campo de pesquisa obrigatorio";
+
+    } 
         
-    } else {
-        
-    }
+    
     
 }
+document.querySelector("searchInput").addEventListener("click",buttonclicked);

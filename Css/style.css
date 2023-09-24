@@ -140,14 +140,16 @@ footer div{
         padding: 2%;
         border-top: 1PX solid #bb9310;
         margin-inline-end: 4%;
-        width: 100%;
-     
+        width: 90%;
+       display: inline-flex;
+       text-align: center;
     
     } 
+    
 .fa-facebook{
     margin-right: 10px;
    width:6%;
-   margin-left: 150PX;
+   margin-left: 150px
    
 }
 .fa-twitter{

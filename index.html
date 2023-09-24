@@ -11,7 +11,15 @@
     
 </head>
 <body >
+  <style type="text/css">
+    
+    html{
+    overflow-y:auto;
+   overflow-x: hidden;
+    }
 
+    </style>
+    
 
   <!--------------------------------------Campo menu------------------------------------ -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -54,9 +62,10 @@
         <!---Campo pesquisa!-->
         
         <form class="d-flex">
-          <input class="form-control " type="search" placeholder="Procurar..." aria-label="Search" id="texto">
-          <button class="btn btn-outline-success" type="submit"  id="btn"><i class="bi bi-search" style="color: #bb9310;"></i></button>
-       
+          <input class="form-control " type="text" placeholder="Procurar..." aria-label="Search" id="searchInput">
+        
+          <button class="btn btn-outline-success" type="submit"  id="btn"><i class="bi bi-search" style="color: #bb9310;" id="searchButton"></i></button>
+       <span id="errorMessage" style="color: red;"></span>
         </form>
       </div>
     </div>
@@ -204,7 +213,10 @@
 </footer>
 <!-----------!----------------------------------Termina aqui------------------------------------------------------------------>
     <script src="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
-<script src="Css/home.js" >
+    <script src="bootstrap-5.2.3-dist/"></script>
+<script >
+
+</script>
   
   
 
