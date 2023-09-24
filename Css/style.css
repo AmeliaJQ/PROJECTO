@@ -19,7 +19,7 @@ body{
 .d-flex button{
     color: #f1f3f4;
     border: 1px solid #bb9310;
-    padding-bottom: 1px;
+  
 }
 .d-flex button:hover{
     background-color:white;
@@ -38,6 +38,11 @@ body{
     border: none;
  
 }
+.errorMessage {
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 /*----------------Estilizando o conteudo da pagina-------------------*/
@@ -51,18 +56,16 @@ display: inline-flex;
 /*----------------------------------------Estilizando o card1 ---------------------------*/
 
  /*----------------------------------------Estilizando o card ---------------------------*/
-    .card-img-top{
-     
-    }
+    
     .card{
       
       margin: 0 12px; 
        
    }
    .card:hover{
-    margin: 2px;
+  
    transition-duration: 0.8s;
-   transform: translate(0,-3%);
+   transform: translate(0,-2%);
    }
    
 .card-group {

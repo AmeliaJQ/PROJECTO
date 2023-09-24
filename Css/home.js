@@ -1,11 +1,12 @@
 function buttonclicked() {
 
     if (!document.querySelector("#searchInput").value) {
-       document.querySelector("#errorMensage").innerHTML="campo de pesquisa obrigatorio";
+       document.querySelector("#errorMessage").innerHTML="campo de pesquisa obrigatorio";
+       alert("o campo de pesquisa é obrigatorio");
 
     } 
         
     
     
 }
-document.querySelector("#searchInput").addEventListener("click",buttonclicked);
+document.querySelector("#searchButton").addEventListener("click",buttonclicked);
